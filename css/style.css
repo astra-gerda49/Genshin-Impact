@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+body {
+    margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+.logo {
+    text-align: center;
+}
+.logo_img {
+    position: relative;;
+    margin-bottom: -70px;
+    width: 50px;
+    animation: rotation 8s infinite linear; 
+}
+.logo_img:hover {
+    animation-play-state: paused;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+}
+.nav {
+    position: absolute;
+}
+.main {
+    background: url(/img/version_6.4.webp);
+    height: 1079px;
+    width: 1513px;
+}
+.main_text {
+    font-family: "Philosopher", Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    color: #fff;
+    font-weight: 500;
+}
+.lenta_text {
+    font-family: "Comfortaa", Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.lenta_card {
+    margin-left: 550px;
+    margin-top: 10px;
+    width: 27rem;
+}
+.detailed {
+    background-color: palevioletred;
+}
+.more {
+    margin-left: 740px;
+    margin-top: 20px;
+    background-color: plum;
+    color: #fff;
+}
+.footer {
+    background-color: #d8d6d6;
+    height: 100px;
+    width: auto;
+}
+.footer_a {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(200, 66, 111);
+    font-weight: 500;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
