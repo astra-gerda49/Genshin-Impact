@@ -36,9 +36,11 @@ a {
     position: absolute;
 }
 .main {
-    background: url(/img/version_6.4.webp);
+    background: url(/Genshin_Impact/img/version_6.4.webp);
     height: 1079px;
     width: 1513px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .main_text {
     font-family: "Philosopher", Arial, Helvetica, sans-serif;
